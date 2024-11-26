@@ -17,104 +17,106 @@
 <body>
 
     <!-- NavBar starts -->
-
-    <!-- NavBar Left logo section -->
-    <div>
-        <img src="images/main logo.png" alt="Loading...">
-    </div>
-    <!-- NavBar Upper Middle Section -->
-     <div>
-        <div>halstein@example.com</div>
-        <div>+99 4 11 72 1270</div>
-        <div>Mon-Fri 9am-5pm</div>
-     </div>
-    <!-- NavBar Upper Left Section | Translator Button -->
-        <!-- Google Translate Section -->
-        <div class="translate-section">
-            <div id="google_translate_element"></div>
+    <header class="container" style="margin-left: 0px;" !important>
+        <!-- NavBar Left logo section -->
+        <div>
+            <img id="main-logo" src="images/main logo.png" alt="Loading...">
         </div>
-        <!-- Google Translate Script -->
-        <script type="text/javascript">
-            function googleTranslateElementInit() {
-            new google.translate.TranslateElement({
-                pageLanguage: 'en',
-                includedLanguages: 'en,es,fr,de,zh,ar,hi',
-                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-            }, 'google_translate_element');
-            }
-        </script>
-        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-    <!-- NavBar Bottom Middle Section -->
-     <div>
-        <!-- Button with Options -->
-        <div class="dropdown-home">
-            <button class="btn dropdown-toggle" type="button" id="dropdownHomeButton" data-bs-toggle="dropdown" aria-expanded="false">
-                HOME
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item" href="#">MAIN HOME</a></li>
-                <li><a class="dropdown-item" href="#">CONSULTING</a></li>
-                <li><a class="dropdown-item" href="#">MENTORSHIP</a></li>
-                <li><a class="dropdown-item" href="#">CONFERENCE</a></li>
-                <li><a class="dropdown-item" href="#">TRAINING HOME</a></li>
-                <li><a class="dropdown-item" href="#">ADVISORY LIGHT</a></li>
-                <li><a class="dropdown-item" href="#">ADVISORY DARK</a></li>
-                <li><a class="dropdown-item" href="#">COMPANY BLOG</a></li>
-                <li><a class="dropdown-item" href="#">BUSINESS HOME</a></li>
-                <li><a class="dropdown-item" href="#">VERTICAL SLIDER</a></li>
-                <li><a class="dropdown-item" href="#">COMPANY HOME</a></li>
-                <li><a class="dropdown-item" href="#">INTERACTIVE LINKS</a></li>
-                <li><a class="dropdown-item" href="#">LANDING</a></li>
-            </ul>
+        <!-- NavBar Upper Middle Section -->
+        <div class="container-box">
+            <div>halstein@example.com</div>
+            <div>+99 4 11 72 1270</div>
+            <div>Mon-Fri 9am-5pm</div>
         </div>
+        <!-- NavBar Upper Left Section | Translator Button -->
+            <!-- Google Translate Section -->
+            <div class="translate-section">
+                <div id="google_translate_element"></div>
+            </div>
+            <!-- Google Translate Script -->
+            <script type="text/javascript">
+                function googleTranslateElementInit() {
+                new google.translate.TranslateElement({
+                    pageLanguage: 'en',
+                    includedLanguages: 'en,es,fr,de,zh,ar,hi',
+                    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                }, 'google_translate_element');
+                }
+            </script>
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-        <div class="dropdown-pages">
-            <button class="btn dropdown-toggle" type="button" id="dropdownPagesButton" data-bs-toggle="dropdown" aria-expanded="false">
-                PAGES
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item" href="#">ABOUT US</a></li>
-                <li><a class="dropdown-item" href="#">OUR TEAM</a></li>
-                <li><a class="dropdown-item" href="#">VLOG</a></li>
-                <li><a class="dropdown-item" href="#">EVENTS</a></li>
-                <li><a class="dropdown-item" href="#">PRICING PLANS</a></li>
-                <li><a class="dropdown-item" href="#">WORK INQUIRY</a></li>
-                <li><a class="dropdown-item" href="#">GET IN TOUCH</a></li>
-                <li><a class="dropdown-item" href="#">CONTACT US</a></li>
-                <li><a class="dropdown-item" href="#">FAQ PAGE</a></li>
-                <li><a class="dropdown-item" href="#">COMING SOON</a></li>
-            </ul>
+        <!-- NavBar Bottom Middle Section -->
+        <div class="container-box">
+            <!-- Button with Options -->
+            <div class="navbar-dropdowns">
+                <div>
+                  <button class="btn dropdown-toggle" type="button" id="dropdownHomeButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    HOME
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownHomeButton">
+                    <li><a class="dropdown-item" href="#">MAIN HOME</a></li>
+                    <li><a class="dropdown-item" href="#">CONSULTING</a></li>
+                    <li><a class="dropdown-item" href="#">MENTORSHIP</a></li>
+                    <li><a class="dropdown-item" href="#">CONFERENCE</a></li>
+                    <li><a class="dropdown-item" href="#">TRAINING HOME</a></li>
+                    <li><a class="dropdown-item" href="#">ADVISORY LIGHT</a></li>
+                    <li><a class="dropdown-item" href="#">ADVISORY DARK</a></li>
+                    <li><a class="dropdown-item" href="#">COMPANY BLOG</a></li>
+                    <li><a class="dropdown-item" href="#">BUSINESS HOME</a></li>
+                    <li><a class="dropdown-item" href="#">VERTICAL SLIDER</a></li>
+                    <li><a class="dropdown-item" href="#">COMPANY HOME</a></li>
+                    <li><a class="dropdown-item" href="#">INTERACTIVE LINKS</a></li>
+                    <li><a class="dropdown-item" href="#">LANDING</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <button class="btn dropdown-toggle" type="button" id="dropdownPagesButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    PAGES
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownPagesButton">
+                    <li><a class="dropdown-item" href="#">ABOUT US</a></li>
+                    <li><a class="dropdown-item" href="#">OUR TEAM</a></li>
+                    <li><a class="dropdown-item" href="#">VLOG</a></li>
+                    <li><a class="dropdown-item" href="#">EVENTS</a></li>
+                    <li><a class="dropdown-item" href="#">PRICING PLANS</a></li>
+                    <li><a class="dropdown-item" href="#">WORK INQUIRY</a></li>
+                    <li><a class="dropdown-item" href="#">GET IN TOUCH</a></li>
+                    <li><a class="dropdown-item" href="#">CONTACT US</a></li>
+                    <li><a class="dropdown-item" href="#">FAQ PAGE</a></li>
+                    <li><a class="dropdown-item" href="#">COMING SOON</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <button class="btn dropdown-toggle" type="button" id="dropdownPortfolioButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    PORTFOLIO
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownPortfolioButton">
+                    <li><a class="dropdown-item" href="#">STANDARD LIST</a></li>
+                    <li><a class="dropdown-item" href="#">GALLERY LIST</a></li>
+                    <li><a class="dropdown-item" href="#">LAYOUTS</a></li>
+                    <li><a class="dropdown-item" href="#">SINGLE TYPES</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <button class="btn dropdown-toggle" type="button" id="dropdownShopButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    SHOP
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownShopButton">
+                    <li><a class="dropdown-item" href="#">SHOP SINGLE</a></li>
+                    <li><a class="dropdown-item" href="#">SHOP LIST</a></li>
+                    <li><a class="dropdown-item" href="#">SHOP PAGES</a></li>
+                    <li><a class="dropdown-item" href="#">SHOP LAYOUTS</a></li>
+                  </ul>
+                </div>
+              </div>
+              
+        <!-- Navbar bottom left section -->
+        <div class="container-box">
+            <button class="btn" type="button" href="#">INFO</button>
         </div>
-
-        <div class="dropdown-portfolio">
-            <button class="btn dropdown-toggle" type="button" id="dropdownPortfolioButton" data-bs-toggle="dropdown" aria-expanded="false">
-                PORTFOLIO
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item" href="#">STANDARD LIST</a></li>
-                <li><a class="dropdown-item" href="#">GALLERY LIST</a></li>
-                <li><a class="dropdown-item" href="#">LAYOUTS</a></li>
-                <li><a class="dropdown-item" href="#">SINGLE TYPES</a></li>
-            </ul>
-        </div>
-
-        <div class="dropdown-shop">
-            <button class="btn dropdown-toggle" type="button" id="dropdownShopButton" data-bs-toggle="dropdown" aria-expanded="false">
-                SHOP
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item" href="#">SHOP SINGLE</a></li>
-                <li><a class="dropdown-item" href="#">SHOP LIST</a></li>
-                <li><a class="dropdown-item" href="#">SHOP PAGES</a></li>
-                <li><a class="dropdown-item" href="#">SHOP LAYOUTS</a></li>
-            </ul>
-        </div>
-    </div>
-    <!-- Navbar bottom left section -->
-     <div>INFO</div>
 
     <!-- Navber Ends -->
+    </header>
     
 
     <!-- Custom JS Link -->

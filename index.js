@@ -5,3 +5,4 @@ $(document).ready(function () {
         $('.goog-te-menu-value span:first').text('Select Language');
     });
 });
+

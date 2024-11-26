@@ -5,3 +5,52 @@
     right: 10px;
     z-index: 1000;
 }
+
+#main-logo {
+    padding: 45px;
+    width: 340px;
+    padding-left: 55px;
+    padding-top: 40px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.container-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    text-align: left;
+}
+
+.navbar-dropdowns {
+    display: flex;
+    gap: 20px; /* Spacing between buttons */
+    align-items: center; /* Align buttons vertically in the center */
+  }
+  
+  .navbar-dropdowns > div {
+    position: relative; /* Required for dropdown positioning */
+  }
+  
+  .navbar-dropdowns .btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Light gray background */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-dropdowns .btn:hover {
+    background-color: #3499f1; /* Hover color */
+    color: #fff;
+  }
+  
+  .dropdown-menu {
+    margin-top: 5px; /* Small gap between button and dropdown */
+  }
+  
